@@ -1,13 +1,12 @@
 ---
 title: "Dissertation"
-
 listing:
 - id: dissertation
   contents: dissertation
   sort: "order"
-  type: grid  # default
-  # grid-columns: 3
-  # image-height: 200px
+  type: grid
+  grid-columns: 3
+  image-height: 200px
   categories: true
   sort-ui: false
   filter-ui: false
