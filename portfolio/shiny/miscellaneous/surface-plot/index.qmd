@@ -1,0 +1,18 @@
+---
+title: "Surface Plot"
+description: "Custom 3-dimentional spatial data visualization."
+order: 2
+image: image.png
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+Custom 3-dimentional spatial data visualization.
+
+<https://hnaganob.shinyapps.io/surface-plot>
+
+<br>
+
+[![](image.png)](https://hnaganob.shinyapps.io/surface-plot)

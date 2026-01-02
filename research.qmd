@@ -1,0 +1,21 @@
+---
+title: "Research"
+listing:
+- id: dissertation
+  contents: research/dissertation
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: false
+  filter-ui: false
+format: html
+page-layout: full
+title-block-banner: true
+---
+
+## [Dissertation](research/dissertation.qmd)
+
+Interactive web applications built using **R Shiny** for data visualization and analysis.
+
+::: {#dissertation}
+:::

@@ -1,0 +1,25 @@
+---
+title: "Brain Network"
+description: "Exploratory data analysis of functional and structural brain network data."
+order: 1
+image: "image.png"
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+The app visualizes brain network data and illustrates the foundations of Gaussian Markov random field model construction, including structural network formation, neighborhood-only dependencies, and spectral clustering.
+
+<https://hnaganob.shinyapps.io/brain-network/>
+
+It aims to explain how the brain functions as a system through its structural network.
+
+<br>
+
+<a href="https://hnaganob.shinyapps.io/brain-network" target="_blank"> <img src="image.png" width="100%"/> </a>
+
+## Data
+
+-   Resting functional MRI BOLD signals (240 x 68)
+-   Diffusion Tensor Imaging (DTI) white matter tract structure (68 x 68)

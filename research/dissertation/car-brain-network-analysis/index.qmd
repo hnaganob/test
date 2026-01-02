@@ -1,0 +1,34 @@
+---
+title: "CAR Brain Network Analysis"
+description: "Bridging brain function and structure with the conditional autoregressive (CAR) model."
+# author: "Hiroki Naganobori"
+# date: "2025-10-01"
+# categories: [brain]
+order: 1
+image: image.png
+page-layout: full
+title-block-banner: true
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+I apply the CAR model, a Markov random field model with Gaussian data, to analyze functional magnetic resonance imaging (fMRI) blood-oxygenation-level-dependent (BOLD) signals on a structurally defined brain network. Using the `spdep` and `spatialreg` packages in R [@Bivand2021], I quantify the level of spatial synchronization through a single spatial dependence parameter.
+
+<https://hnaganob.shinyapps.io/car-brain-network-analysis/>
+
+A corresponding R Shiny interactive web application is under development. It computes the CAR model summary at each time point of fMRI BOLD signals, and tracks the dynamics of functional synchronization over time. The app will be further developed to allow users to upload their own functional and structural data for spatial model-based analysis.
+
+## Data
+
+-   Scaled (z-scored) resting-state fMRI BOLD signals from 68 ROIs with TR $=$ 2s (240 x 68)
+-   Diffusion Tensor Imaging (DTI) white matter tract structure (68 x 68)
+
+<br>
+
+![](image.png)
+
+<br>
+
+## References

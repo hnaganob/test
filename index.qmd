@@ -1,0 +1,34 @@
+---
+title: "Hiroki Naganobori"
+subtitle: "Biostatistician | Data Scientist"
+image: profile.jpg
+page-layout: full
+about:
+  # template: jolla
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hnaganob/
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/hnaganob/
+      target: _blank
+---
+
+## Education
+
+Ph.D. Candidate in Neuroscience & Human Performance (2026 exp) <br> Indiana University Bloomington
+
+M.S. in Applied Statistics, Indiana University Bloomington <br> M.S. in Exercise Physiology, Indiana University Bloomington <br> B.S. in Exercise Science, Indiana University Bloomington
+
+## Scholarly Interests
+
+-   Brain Network Analysis
+-   Markov Random Field
+-   Negative Spatial Autocorrelation
+-   Statistical Programming
+-   R Shiny Data Visualization
+-   Statistical Consulting

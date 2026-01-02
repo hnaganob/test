@@ -1,0 +1,30 @@
+---
+title: "Dissertation"
+
+listing:
+- id: dissertation
+  contents: dissertation
+  sort: "order"
+  type: grid  # default
+  # grid-columns: 3
+  # image-height: 200px
+  categories: true
+  sort-ui: false
+  filter-ui: false
+format: html
+page-layout: full
+title-block-banner: true
+---
+
+## Overview
+
+Tobler’s first law of geography states, “everything is related to everything else, but near things are more related than distant things” [@Tobler1970]. I extend this principle to the analysis of the brain. My research lies at the intersection of spatial statistics and network analysis, with a primary focus on brain connectivity.
+
+With the bold assumption that spatial structure itself encodes information about data behavior within the space, I analyze network data by focusing on neighborhood dependencies. More specifically, I use a Markov random field approach to address Tobler’s principle on single-subject brain network data.
+
+My work is divided into the following three main areas.
+
+<br>
+
+::: {#dissertation}
+:::

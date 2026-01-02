@@ -1,0 +1,18 @@
+---
+title: "Field Hockey Animation"
+description: "Player activity animation using Polar Team Pro GPS tracking data."
+order: 2
+image: "image.png"
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+Player activity animation using Polar Team Pro GPS tracking data.
+
+<https://hnaganob.shinyapps.io/field-hockey/>
+
+<br>
+
+<a href="https://hnaganob.shinyapps.io/field-hockey/" target="_blank"> <img src="image.png" width="100%"/> </a>

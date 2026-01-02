@@ -1,0 +1,22 @@
+---
+title: "CAR Dependence Parameter Diagnostics"
+description: "Diagnosis of graph-specific spatial autocorrelation in the Markov random field model framework."
+order: 3
+image: "image.png"
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+It computes the graph-specific range of conditiona autoregressive (CAR) model spatial dependence parameters and displays model-based correlations between a selected seed node and all other nodes.
+
+<https://hnaganob.shinyapps.io/car-dependence-parameter-diagnostics/>
+
+## Aims
+
+-   Demonstrates how triadic structures influence spatial autocorrelation patterns by cubic and hexagonal lattices.
+
+<br>
+
+[![](image.png)](https://hnaganob.shinyapps.io/car-dependence-parameter-diagnostics/)

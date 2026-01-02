@@ -1,0 +1,14 @@
+---
+title: "Portfolio"
+format: html
+page-layout: full
+title-block-banner: true
+---
+
+### [Shiny Web Apps](portfolio/shiny.qmd)
+
+Interactive web applications built using **R Shiny** for data visualization and analysis.
+
+### [Statistical Consulting](portfolio/consulting.qmd)
+
+Data analysis, modeling, and statistical insights provided through consulting projects.

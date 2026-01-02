@@ -1,0 +1,15 @@
+# Ignore Quarto-generated output
+_site/
+_freeze/
+_quarto.yml~
+.quarto/
+
+# R and RStudio files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# System files
+.DS_Store
+/.quarto/

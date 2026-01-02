@@ -1,0 +1,33 @@
+---
+title: "Interpretation of Negative Spatial Dependence"
+# author: "Hiroki Naganobori"
+# date: "2025-10-01"
+order: 3
+categories: [brain]
+image: images/clipboard-3780288501.png
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+The Nobel Peace Prize laureate Elie Wiesel stated, “The opposite of love is not hate, it’s indifference.” If we define love as perfect positive correlation (i.e., $\rho = +1$), hate as perfect negative correlation (i.e., $\rho = –1$), and the opposite of love as the most negative possible relationship, then in a simple graph of two nodes, the opposite of love is indeed hate. However, from a network perspective, in a highly connected graph where each node is connected to many other nodes, the opposite of love approaches statistical independence (i.e., $\rho = 0$), which corresponds to indifference.
+
+Building on this conceptual framework, I offer an interpretation of negative spatial autocorrelation in graphs. Using a random walk based simulation algorithm, I generate synthetic network data that are negatively autocorrelated and intrinsically consistent with the underlying graph structure. This enables systematic exploration of how graph topology, particularly clustering and node degree, affects the emergence and behavior of negatively correlated spatial structures.
+
+<https://hnaganob.shinyapps.io/car-dependence-parameter-diagnostics/>
+
+To support this analysis, I developed an interactive Shiny web application which computes the graph-specific admissible range of the spatial dependence parameter. The app demonstrates how negative spatial dependence produces unintuitive pairwise correlations among nodes, especially under complex graph structures. This tool helps reveal that negative autocorrelation does not simply invert positive relationships, but instead reflects deeper structural dynamics in the network.
+
+::: {.layout-ncol="2"}
+![](images/clipboard-3780288501.png)
+![](images/clipboard-3780288501.png)
+![](images/clipboard-3780288501.png)
+![](images/clipboard-3780288501.png)
+:::
+
+![](images/clipboard-3780288501.png)<br>
+
+<br>
+
+## References

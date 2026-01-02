@@ -1,0 +1,26 @@
+---
+title: "CAR Brain Network Analysis"
+description: "Markov random field approach on resting-state fMRI and structural brain network data."
+order: 2
+image: image.png
+page-navigation: true
+toc: true
+---
+
+## Overview
+
+Brain network analysis with the conditional autoregressive (CAR) model using `spdep` and `spatialreg` packages [@Bivand2021].
+
+<https://hnaganob.shinyapps.io/car-brain-network-analysis/>
+
+-   Displays BOLD signal data and CAR model results with the inferred spatial dependence parameter at each time point.
+-   Tracks the dynamics of functional synchronization over a given spatial structure during rest.
+
+## Data
+
+-   Scaled (z-scored) resting-state fMRI BOLD signals from 68 ROIs with TR $=$ 2s (240 x 68)
+-   Diffusion Tensor Imaging (DTI) white matter tract structure (68 x 68)
+
+<br> [![](image.png)](https://hnaganob.shinyapps.io/car-brain-network-analysis/) <br>
+
+## References

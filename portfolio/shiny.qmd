@@ -1,0 +1,57 @@
+---
+title: "Shiny Web Apps"
+
+listing:
+- id: brain
+  contents: shiny/brain
+  sort: "order"
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+- id: sports
+  contents: shiny/sports
+  sort: "order"
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+- id: miscellaneous
+  contents: shiny/miscellaneous
+  sort: "order"
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  
+page-layout: full
+title-block-banner: true
+
+page-navigation: true
+toc: true
+
+format: 
+  html:
+    link-external-newwindow: false
+---
+
+## Brain Network
+
+::: {#brain}
+:::
+
+## Sports
+
+::: {#sports}
+:::
+
+## Miscellaneous
+
+::: {#miscellaneous}
+:::
